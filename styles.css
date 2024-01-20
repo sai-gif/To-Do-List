@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+   }
+    h1 {
+        text-align: center;
+        color: #021781;
+    }
+
+    input, select, button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    #addTask {
+       font-size: 35px;
+       font-weight: bold;
+        color: #021781;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+        background-color: white;
+    }
+
+    #priority{
+        width: 50%;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+
+    .delete {
+        background-color: #f44336;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 80px;
+    }
+
+    #task{
+        width: 90%;
+        text-align: center;
+        height: 30px;
+    }
+
+    p{
+        color: #f44336;
+        font-weight: bolder;
+    }
